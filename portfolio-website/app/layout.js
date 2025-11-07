@@ -88,7 +88,7 @@ export const metadata = {
   verification: {
     google: "google7f194392f45ae8df",
   },
-alternates: {
+  alternates: {
     canonical: siteUrl,
   },
   category: "technology",
@@ -98,8 +98,8 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" className={baiJamjuree.variable}>
       <head>
-        <link rel="icon" href="/assets/img/favicon.jpg" type="image/jpeg" />
-        <link rel="apple-touch-icon" href="/assets/img/favicon.jpg" />{" "}
+        <link rel="icon" href="/assets/img/favicon.jpg?v=2" type="image/jpeg" />
+        <link rel="apple-touch-icon" href="/assets/img/favicon.jpg" />
         <link rel="manifest" href="/manifest.json" />
         <meta name="theme-color" content="#ff6b35" />
         <link
@@ -153,8 +153,10 @@ export default function RootLayout({ children }) {
         {/* ScrollReveal and site scripts */}
         <ClientSideScrollReveal />
         <Script src="/assets/js/loop.js" strategy="afterInteractive" />
+        <Script src="/assets/js/main.js" strategy="afterInteractive" />
       </head>
       <body className={baiJamjuree.className}>{children}</body>
     </html>
   );
 }
+
