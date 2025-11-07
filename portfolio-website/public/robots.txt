@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://kuldeep-bhadouriya.vercel.app
+
+# Sitemaps
+Sitemap: https://kuldeep-bhadouriya.vercel.app/sitemap.xml

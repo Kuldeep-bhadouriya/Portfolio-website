@@ -1,0 +1,24 @@
+{
+  "name": "portfolio-website",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "node scripts/copy-static.mjs && next dev",
+    "build": "node scripts/copy-static.mjs && next build",
+    "start": "next start",
+    "lint": "next lint",
+    "copy:assets": "node scripts/copy-static.mjs"
+  },
+  "dependencies": {
+    "next": "^16.0.1",
+    "nodemailer": "^6.9.14",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "scrollreveal": "^4.0.9"
+  },
+  "devDependencies": {
+    "@types/node": "24.10.0",
+    "@types/react": "19.2.2",
+    "typescript": "5.9.3"
+  }
+}

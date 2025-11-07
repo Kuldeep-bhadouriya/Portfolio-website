@@ -37,8 +37,10 @@
   /*========== z index ==========*/
   --z-tooltip: 10;
   --z-fixed: 100;
-}
-
+  .projects__card {
+    padding: 1rem 1rem 2rem;
+    transition: background-color 0.4s;
+  }
 /*========== Responsive typography ==========*/
 @media screen and (min-width: 1150px) {
   :root {
@@ -482,7 +484,7 @@ body.dark-theme {
   margin-top: 4rem;
 }
 
-.home__discription {
+.home__description {
   text-align: center;
   color: var(--title-color);
   margin-bottom: 1.5rem;
@@ -653,12 +655,11 @@ body.dark-theme {
   padding-left: 1.25rem;
 }
 
-.about__discription {
+.about__description {
   position: relative;
   color: var(--title-color);
   margin-bottom: 1.5rem;
 }
-
 .about__discription::after {
   content: "";
   width: 20px;
@@ -1521,11 +1522,10 @@ body.dark-theme {
     padding: 4.5rem 3.5rem 3.5rem;
     margin: 7.5rem 0 0 8rem;
     border-bottom: 6px solid var(--first-color);
-  }
   .contact__data .section__title-2 {
     margin: 0 0 2rem;
-    transform: tranlateX(-6.5rem);
-  }
+    transform: translateX(-6.5rem);
+  }  }
   .contact__social {
     margin-left: 8rem;
     text-align: initial;
