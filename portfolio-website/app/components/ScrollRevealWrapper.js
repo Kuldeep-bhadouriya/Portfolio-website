@@ -7,14 +7,15 @@ import ScrollReveal from "scrollreveal";
 const ScrollRevealWrapper = () => {
   useEffect(() => {
     if (typeof window !== "undefined") {
-      const sr = ScrollReveal({
-        distance: "60px",
-        duration: 2500,
-        delay: 400,
-        reset: true,
-      });
+      // Wait for hydration to complete before initializing ScrollReveal
+      const initScrollReveal = () => {
+        const sr = ScrollReveal({
+          distance: "60px",
+          duration: 2500,
+          delay: 400,
+          reset: true,
+        });
 
-      const revealElements = () => {
         sr.reveal(".home__data, .home__social-link, .home__info", {
           origin: "top",
         });
@@ -30,13 +31,15 @@ const ScrollRevealWrapper = () => {
         );
         sr.reveal(".services__card, .projects__card", { interval: 100 });
         sr.reveal(".skills__content", { origin: "top" });
+
+        return sr;
       };
 
-      const timeoutId = setTimeout(revealElements, 100);
+      // Delay initialization until after hydration
+      const timeoutId = setTimeout(initScrollReveal, 300);
 
       return () => {
         clearTimeout(timeoutId);
-        sr.destroy();
       };
     }
   }, []);

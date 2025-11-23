@@ -116,7 +116,7 @@ export default function RootLayout({ children }) {
                 const icon = localStorage.getItem('selected-icon');
                 if (theme === 'dark') {
                   document.documentElement.classList.add('dark-theme-loading');
-                  document..body.classList.add('dark-theme');
+                  document.body.classList.add('dark-theme');
                 }
               })();
             `,

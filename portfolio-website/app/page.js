@@ -264,6 +264,42 @@ export default function HomePage() {
             <article className="projects__card">
               <div className="projects__image">
                 <img
+                  src="/assets/img/capstone.png"
+                  alt="Learning Path Generator multi-agent system screenshot"
+                  className="projects__img"
+                />
+                <a
+                  href="https://learning-path-capstone.streamlit.app/"
+                  className="projects__button button"
+                >
+                  <i className="ri-arrow-right-up-line"></i>
+                </a>
+              </div>
+
+              <div className="projects__content">
+                <h3 className="projects__subtitle">AI Application</h3>
+                <h2 className="projects__title">Learning Path Generator</h2>
+
+                <p className="projects__description">
+                  This is a multi-agent system built with the Google Agent Development Kit (ADK) that acts as an expert curriculum designer. It takes any learning topic and generates a complete, actionable learning plan in minutes.
+                </p>
+              </div>
+
+              <div className="projects__buttons">
+                <a
+                  href="https://github.com/Kuldeep-bhadouriya/learning-path"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="projects__link"
+                >
+                  <i className="ri-github-line"></i>View
+                </a>
+              </div>
+            </article>
+
+            <article className="projects__card">
+              <div className="projects__image">
+                <img
                   src="/assets/img/Zeroerror.png"
                   alt="Zero Error Esports website screenshot"
                   className="projects__img"
