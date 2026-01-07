@@ -288,7 +288,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 - GitHub: [@Kuldeep-bhadouriya](https://github.com/Kuldeep-bhadouriya)
 - LinkedIn: [Kuldeep Singh Bhadouriya](https://www.linkedin.com/in/kuldeep-singh-bhadouriya-68a748311/)
-- Instagram: [@tf.kuldeep](https://www.instagram.com/tf.kuldeep/)
+- Instagram: [@wtf.kuldeepp](https://www.instagram.com/wtf.kuldeepp/)
 
 ## 🙏 Acknowledgments
 

@@ -93,7 +93,7 @@ export default function HomePage() {
 
               <div className="home__social">
                 <a
-                  href="https://www.instagram.com/tf.kuldeep/"
+                  href="https://www.instagram.com/wtf.kuldeepp/"
                   target="_blank"
                   rel="noreferrer"
                   className="home__social-link"
@@ -672,7 +672,7 @@ export default function HomePage() {
 
                 <div className="contact__social-links">
                   <a
-                    href="https://www.instagram.com/tf.kuldeep/"
+                    href="https://www.instagram.com/wtf.kuldeepp/"
                     target="_blank"
                     rel="noreferrer"
                     className="contact__social-link"
