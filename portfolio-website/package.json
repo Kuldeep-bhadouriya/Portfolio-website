@@ -10,8 +10,8 @@
     "copy:assets": "node scripts/copy-static.mjs"
   },
   "dependencies": {
-    "next": "^16.0.1",
-    "nodemailer": "^6.9.14",
+    "next": "^16.1.1",
+    "nodemailer": "^7.0.12",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "scrollreveal": "^4.0.9"
