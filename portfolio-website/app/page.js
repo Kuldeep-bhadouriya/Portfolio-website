@@ -161,23 +161,18 @@ export default function HomePage() {
             </div>
             <div className="about__info">
               <p className="about__description">
-                A passionate <b>MERN stack web developer</b> with hands-on
-                experience gained through an <b>internship</b> at Scaler School
-                of Technology. I specialize in building dynamic, scalable web
-                applications using MongoDB, Express.js, React, and Node.js. In
-                addition to my web development skills, I’m a versatile{" "}
-                <b>freelancer</b> with expertise in video editing and graphic
-                design. I’ve won multiple awards, including an interschool
-                competition for cinematography and video editing, as well as a
-                hackathon during my 1st Semester. I’m always excited to take on
-                new challenges, whether it's crafting immersive web experiences
-                or creating visually captivating content. Let's connect and
-                bring your ideas to life!
+                B.Tech Computer Science student at <b>ITM Gwalior</b> and a
+                passionate <b>MERN Stack Developer</b>. I build scalable
+                full-stack web applications and sharpen my problem-solving
+                through DSA in C++. <b>GSSoC &apos;25 Contributor</b>, Google
+                Cloud Innovator, Web Dev Head at GDSC, and a{" "}
+                <b>1x Hackathon Winner</b>. Always open to learning,
+                collaborating, and tackling new challenges in tech.
               </p>
               <ul className="about__list">
                 <li className="about__item">
-                  <b>My Skills Are:</b> MERN Stack Web Development, Video
-                  Editing, Graphic Designing, C++ Programming, UI/UX Design, and
+                  <b>My Skills Are:</b> MERN Stack Web Development, JavaScript,
+                  TypeScript, Python, C++ &amp; DSA, DevOps, UI/UX Design, and
                   Version Control.
                 </li>
               </ul>
@@ -242,12 +237,12 @@ export default function HomePage() {
               <div className="services__content">
                 <div className="services__icon">
                   <div className="services__box"></div>
-                  <i className="ri-video-chat-line"></i>
+                  <i className="ri-cloud-line"></i>
                 </div>
-                <h2 className="services__title">Video Editor</h2>
+                <h2 className="services__title">DevOps</h2>
                 <p className="services__description">
-                  Create and edit videos for your social media with high quality
-                  and user satisfaction.
+                  CI/CD pipelines, cloud deployments, and containerization with
+                  Docker to ship reliable software faster.
                 </p>
               </div>
             </article>

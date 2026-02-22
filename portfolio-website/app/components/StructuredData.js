@@ -11,7 +11,7 @@ export default function StructuredData() {
       name: "Scaler School of Technology",
     },
     description:
-      "Experienced MERN Stack Developer specializing in full-stack web applications using MongoDB, Express.js, React, and Node.js. Also skilled in video editing and graphic design.",
+      "MERN Stack Developer and B.Tech CS student at ITM Gwalior. GSSoC '25 Contributor, Google Cloud Innovator, and Web Dev Head at GDSC. Skilled in full-stack development, DevOps, and DSA in C++.",
     alumniOf: {
       "@type": "Organization",
       name: "Scaler School of Technology",
@@ -24,9 +24,11 @@ export default function StructuredData() {
       "Express.js",
       "JavaScript",
       "Web Development",
-      "Video Editing",
-      "Graphic Design",
+      "TypeScript",
+      "Python",
+      "DevOps",
       "C++ Programming",
+      "DSA",
       "UI/UX Design",
     ],
     sameAs: [
