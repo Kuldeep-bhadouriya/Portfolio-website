@@ -101,7 +101,7 @@ export default function HomePage() {
                   <i className="ri-instagram-line"></i>
                 </a>
                 <a
-                  href="https://www.linkedin.com/in/kuldeep-singh-bhadouriya-68a748311/"
+                  href="https://www.linkedin.com/in/kuldeep-singh-bhadouriya/"
                   target="_blank"
                   rel="noreferrer"
                   className="home__social-link"
@@ -183,7 +183,7 @@ export default function HomePage() {
                 </a>
 
                 <a
-                  href="https://www.linkedin.com/in/kuldeep-singh-bhadouriya-68a748311/"
+                  href="https://www.linkedin.com/in/kuldeep-singh-bhadouriya/"
                   target="_blank"
                   rel="noreferrer"
                   className="button__ghost"
@@ -676,7 +676,7 @@ export default function HomePage() {
                   </a>
 
                   <a
-                    href="https://www.linkedin.com/in/kuldeep-singh-bhadouriya-68a748311/"
+                    href="https://www.linkedin.com/in/kuldeep-singh-bhadouriya/"
                     target="_blank"
                     rel="noreferrer"
                     className="contact__social-link"
