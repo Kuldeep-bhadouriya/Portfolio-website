@@ -72,7 +72,7 @@ export const metadata = {
     description:
       "Experienced MERN Stack Developer specializing in full-stack web applications. Check out my portfolio!",
     images: [`${siteUrl}/assets/img/home-perfil.jpg`],
-    creator: "@wtf.kuldeepp",
+    creator: "@simply.kuldeep",
   },
   robots: {
     index: true,
