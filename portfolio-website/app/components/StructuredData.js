@@ -34,7 +34,7 @@ export default function StructuredData() {
     sameAs: [
       "https://github.com/Kuldeep-bhadouriya",
       "https://www.linkedin.com/in/kuldeep-singh-bhadouriya/",
-      "https://www.instagram.com/simply.kuldeep/",
+      "https://www.instagram.com/wtf.kuldeepp/",
     ],
   };
 
