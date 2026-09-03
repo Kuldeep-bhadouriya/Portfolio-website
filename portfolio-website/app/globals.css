@@ -1316,7 +1316,7 @@ body.dark-theme {
   }
   .about__container {
     align-self: flex-end;
-    margin-inline: 0;
+    margin-inline: auto;
   }
   .about__info {
     align-self: flex-start;

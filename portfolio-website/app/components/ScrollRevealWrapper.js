@@ -10,9 +10,9 @@ const ScrollRevealWrapper = () => {
       // Wait for hydration to complete before initializing ScrollReveal
       const initScrollReveal = () => {
         const sr = ScrollReveal({
-          distance: "60px",
-          duration: 2500,
-          delay: 400,
+          distance: "40px",
+          duration: 1000,
+          delay: 150,
           reset: true,
         });
 
@@ -36,7 +36,7 @@ const ScrollRevealWrapper = () => {
       };
 
       // Delay initialization until after hydration
-      const timeoutId = setTimeout(initScrollReveal, 300);
+      const timeoutId = setTimeout(initScrollReveal, 50);
 
       return () => {
         clearTimeout(timeoutId);
