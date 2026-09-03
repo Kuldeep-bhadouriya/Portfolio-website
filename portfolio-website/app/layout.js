@@ -125,34 +125,11 @@ export default function RootLayout({ children }) {
           }}
         />
         <StructuredData />
-        {/* EmailJS Configuration */}
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
-              window.EMAILJS_CONFIG = {
-                publicKey: '${
-                  process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY ||
-                  "wXOdiuuByIuiblG_V"
-                }',
-                serviceId: '${
-                  process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID ||
-                  "service_8q59eqn"
-                }',
-                templateId: '${
-                  process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID ||
-                  "template_dbecm64"
-                }'
-              };
-            `,
-          }}
-        />
         {/* GSAP & EmailJS for contact form and animations */}
         <Script
           src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"
           strategy="afterInteractive"
         />
-        <EmailJSScript />
-        {/* ScrollReveal and site scripts */}
         <ClientSideScrollReveal />
         <Script src="/assets/js/loop.js" strategy="afterInteractive" />
         <Script src="/assets/js/main.js" strategy="afterInteractive" />

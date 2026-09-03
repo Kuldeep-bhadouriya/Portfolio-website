@@ -59,44 +59,7 @@ if (contactForm) {
     showMessage("Sending message...", true);
 
     try {
-      // Prefer EmailJS if available and loaded
-      if (
-        typeof window !== "undefined" &&
-        window.emailjs &&
-        typeof window.emailjs.sendForm === "function"
-      ) {
-        // Get configuration from window (set in HTML or via env)
-        const emailjsConfig = window.EMAILJS_CONFIG || {
-          publicKey: "wXOdiuuByIuiblG_V",
-          serviceId: "service_8q59eqn",
-          templateId: "template_dbecm64",
-        };
-
-        // Initialize if not already
-        try {
-          if (window.emailjs && typeof window.emailjs.init === "function") {
-            window.emailjs.init(emailjsConfig.publicKey);
-          }
-        } catch (initErr) {
-          console.error("EmailJS init error:", initErr);
-        }
-
-        // Send the email using EmailJS
-        const result = await window.emailjs.sendForm(
-          emailjsConfig.serviceId,
-          emailjsConfig.templateId,
-          "#contact-form",
-          emailjsConfig.publicKey
-        );
-
-        console.log("EmailJS success:", result);
-        showMessage("Message sent successfully ✅", true);
-        contactForm.reset();
-        return;
-      }
-
-      // Fallback to local API route if EmailJS not available
-      console.log("EmailJS not available, using API fallback");
+      // Send the email using the local API route
       const formData = new FormData(contactForm);
       const payload = Object.fromEntries(formData.entries());
 
