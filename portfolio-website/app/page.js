@@ -17,7 +17,7 @@ export default function HomePage() {
           </a>
           <div className="nav__menu" id="nav-menu">
             <span className="nav__title">Menu </span>
-            <h3 className="nav__name">Kuldeep</h3>
+            <span className="nav__name">Kuldeep</span>
 
             <ul className="nav__list">
               <li className="nav__item">
@@ -75,6 +75,10 @@ export default function HomePage() {
                   src="/assets/img/home-perfil.jpg"
                   alt="Kuldeep Singh Bhadouriya - MERN Stack Developer"
                   className="home__img"
+                  width="1131"
+                  height="1131"
+                  fetchPriority="high"
+                  decoding="async"
                 />
                 <div className="home__shadow"></div>
 
@@ -95,7 +99,7 @@ export default function HomePage() {
                 <a
                   href="https://www.instagram.com/wtf.kuldeepp/"
                   target="_blank"
-                  rel="noreferrer"
+                  rel="noopener noreferrer"
                   className="home__social-link"
                 >
                   <i className="ri-instagram-line"></i>
@@ -103,7 +107,7 @@ export default function HomePage() {
                 <a
                   href="https://www.linkedin.com/in/kuldeep-singh-bhadouriya/"
                   target="_blank"
-                  rel="noreferrer"
+                  rel="noopener noreferrer"
                   className="home__social-link"
                 >
                   <i className="ri-linkedin-box-line"></i>
@@ -111,7 +115,7 @@ export default function HomePage() {
                 <a
                   href="https://github.com/Kuldeep-bhadouriya"
                   target="_blank"
-                  rel="noreferrer"
+                  rel="noopener noreferrer"
                   className="home__social-link"
                 >
                   <i className="ri-github-line"></i>
@@ -132,6 +136,10 @@ export default function HomePage() {
 
                 <span className="home__scroll-text">Scroll Down</span>
               </a>
+
+              <a href="#projects" className="home__work-link">
+                View My Work <i className="ri-arrow-right-line"></i>
+              </a>
             </div>
           </div>
         </section>
@@ -148,6 +156,10 @@ export default function HomePage() {
                   src="/assets/img/about-perfil.jpg"
                   alt="Kuldeep Singh Bhadouriya professional photo"
                   className="about__img"
+                  width="1395"
+                  height="1395"
+                  loading="lazy"
+                  decoding="async"
                 />
                 <div className="about__shadow"></div>
                 <div className="geometric-box"></div>
@@ -185,7 +197,7 @@ export default function HomePage() {
                 <a
                   href="https://www.linkedin.com/in/kuldeep-singh-bhadouriya/"
                   target="_blank"
-                  rel="noreferrer"
+                  rel="noopener noreferrer"
                   className="button__ghost"
                 >
                   <i className="ri-linkedin-box-line"></i>
@@ -209,7 +221,7 @@ export default function HomePage() {
                   <div className="services__box"></div>
                   <i className="ri-layout-4-line"></i>
                 </div>
-                <h2 className="services__title">Web Design</h2>
+                <h3 className="services__title">Web Design</h3>
                 <p className="services__description">
                   Beautiful and elegant designs with interfaces that are
                   intuitive, efficient and pleasant to use for the user.
@@ -224,7 +236,7 @@ export default function HomePage() {
                   <div className="services__box"></div>
                   <i className="ri-code-box-line"></i>
                 </div>
-                <h2 className="services__title">Development</h2>
+                <h3 className="services__title">Development</h3>
                 <p className="services__description">
                   Custom web development tailored to your specifications,
                   designed to provide a flawless user experience.
@@ -239,7 +251,7 @@ export default function HomePage() {
                   <div className="services__box"></div>
                   <i className="ri-cloud-line"></i>
                 </div>
-                <h2 className="services__title">DevOps</h2>
+                <h3 className="services__title">DevOps</h3>
                 <p className="services__description">
                   CI/CD pipelines, cloud deployments, and containerization with
                   Docker to ship reliable software faster.
@@ -259,9 +271,13 @@ export default function HomePage() {
             <article className="projects__card">
               <div className="projects__image">
                 <img
-                  src="/assets/img/capstone.png"
+                  src="/assets/img/capstone.jpg"
                   alt="Learning Path Generator multi-agent system screenshot"
                   className="projects__img"
+                  width="1600"
+                  height="880"
+                  loading="lazy"
+                  decoding="async"
                 />
                 <a
                   href="https://learning-path-capstone.streamlit.app/"
@@ -272,8 +288,8 @@ export default function HomePage() {
               </div>
 
               <div className="projects__content">
-                <h3 className="projects__subtitle">AI Application</h3>
-                <h2 className="projects__title">Learning Path Generator</h2>
+                <p className="projects__subtitle">AI Application</p>
+                <h3 className="projects__title">Learning Path Generator</h3>
 
                 <p className="projects__description">
                   This is a multi-agent system built with the Google Agent Development Kit (ADK) that acts as an expert curriculum designer. It takes any learning topic and generates a complete, actionable learning plan in minutes.
@@ -284,7 +300,7 @@ export default function HomePage() {
                 <a
                   href="https://github.com/Kuldeep-bhadouriya/learning-path"
                   target="_blank"
-                  rel="noreferrer"
+                  rel="noopener noreferrer"
                   className="projects__link"
                 >
                   <i className="ri-github-line"></i>View
@@ -295,9 +311,13 @@ export default function HomePage() {
             <article className="projects__card">
               <div className="projects__image">
                 <img
-                  src="/assets/img/Zeroerror.png"
+                  src="/assets/img/Zeroerror.jpg"
                   alt="Zero Error Esports website screenshot"
                   className="projects__img"
+                  width="1600"
+                  height="869"
+                  loading="lazy"
+                  decoding="async"
                 />
                 <a
                   href="https://www.zeroerroresports.com/"
@@ -308,8 +328,8 @@ export default function HomePage() {
               </div>
 
               <div className="projects__content">
-                <h3 className="projects__subtitle">Website</h3>
-                <h2 className="projects__title">Zero Error Esports</h2>
+                <p className="projects__subtitle">Website</p>
+                <h3 className="projects__title">Zero Error Esports</h3>
 
                 <p className="projects__description">
                   A modern, responsive website for the Zero Error Esports
@@ -323,7 +343,7 @@ export default function HomePage() {
                 <a
                   href="https://github.com/sharmaxkartik/Zero-Error-Esports"
                   target="_blank"
-                  rel="noreferrer"
+                  rel="noopener noreferrer"
                   className="projects__link"
                 >
                   <i className="ri-github-line"></i>View
@@ -334,9 +354,13 @@ export default function HomePage() {
             <article className="projects__card">
               <div className="projects__image">
                 <img
-                  src="/assets/img/project-8.png"
+                  src="/assets/img/project-8.jpg"
                   alt="Barterly time-banking platform screenshot"
                   className="projects__img"
+                  width="1600"
+                  height="891"
+                  loading="lazy"
+                  decoding="async"
                 />
                 <a
                   href="https://barterly-steel.vercel.app/"
@@ -347,8 +371,8 @@ export default function HomePage() {
               </div>
 
               <div className="projects__content">
-                <h3 className="projects__subtitle">Website</h3>
-                <h2 className="projects__title">Barterly</h2>
+                <p className="projects__subtitle">Website</p>
+                <h3 className="projects__title">Barterly</h3>
 
                 <p className="projects__description">
                   A community-driven time-banking platform where every hour you
@@ -360,7 +384,7 @@ export default function HomePage() {
                 <a
                   href="https://github.com/sharmaxkartik/Barterly"
                   target="_blank"
-                  rel="noreferrer"
+                  rel="noopener noreferrer"
                   className="projects__link"
                 >
                   <i className="ri-github-line"></i>View
@@ -371,9 +395,13 @@ export default function HomePage() {
             <article className="projects__card">
               <div className="projects__image">
                 <img
-                  src="/assets/img/project-7.png"
+                  src="/assets/img/project-7.jpg"
                   alt="Kronos Techfest website screenshot"
                   className="projects__img"
+                  width="1600"
+                  height="894"
+                  loading="lazy"
+                  decoding="async"
                 />
                 <a
                   href="https://kronos-2025.vercel.app/"
@@ -384,8 +412,8 @@ export default function HomePage() {
               </div>
 
               <div className="projects__content">
-                <h3 className="projects__subtitle">Website</h3>
-                <h2 className="projects__title">Kronos-Techfest Website</h2>
+                <p className="projects__subtitle">Website</p>
+                <h3 className="projects__title">Kronos-Techfest Website</h3>
 
                 <p className="projects__description">
                   Official website for our college techfest <b>Kronos</b> with
@@ -398,7 +426,7 @@ export default function HomePage() {
                 <a
                   href="https://github.com/vedant20082004/KRONOS2025"
                   target="_blank"
-                  rel="noreferrer"
+                  rel="noopener noreferrer"
                   className="projects__link"
                 >
                   <i className="ri-github-line"></i>View
@@ -409,9 +437,13 @@ export default function HomePage() {
             <article className="projects__card">
               <div className="projects__image">
                 <img
-                  src="/assets/img/project-5.png"
+                  src="/assets/img/project-5.jpg"
                   alt="Fix-Up Google Solution Challenge project screenshot"
                   className="projects__img"
+                  width="1600"
+                  height="893"
+                  loading="lazy"
+                  decoding="async"
                 />
                 <a
                   href="https://fix-up-gules.vercel.app/"
@@ -422,8 +454,8 @@ export default function HomePage() {
               </div>
 
               <div className="projects__content">
-                <h3 className="projects__subtitle">Website</h3>
-                <h2 className="projects__title">Google Solution Project</h2>
+                <p className="projects__subtitle">Website</p>
+                <h3 className="projects__title">Google Solution Project</h3>
 
                 <p className="projects__description">
                   A submission for the <b>Google Solution Challenge</b> focused
@@ -436,7 +468,7 @@ export default function HomePage() {
                 <a
                   href="https://github.com/sharmaxkartik/Fix-Up"
                   target="_blank"
-                  rel="noreferrer"
+                  rel="noopener noreferrer"
                   className="projects__link"
                 >
                   <i className="ri-github-line"></i>View
@@ -447,9 +479,13 @@ export default function HomePage() {
             <article className="projects__card">
               <div className="projects__image">
                 <img
-                  src="/assets/img/project-4.png"
+                  src="/assets/img/project-4.jpg"
                   alt="Personal portfolio website screenshot"
                   className="projects__img"
+                  width="1600"
+                  height="882"
+                  loading="lazy"
+                  decoding="async"
                 />
                 <a
                   href="https://kuldeep-bhadouriya.vercel.app/"
@@ -460,8 +496,8 @@ export default function HomePage() {
               </div>
 
               <div className="projects__content">
-                <h3 className="projects__subtitle">Website</h3>
-                <h2 className="projects__title">Portfolio Website</h2>
+                <p className="projects__subtitle">Website</p>
+                <h3 className="projects__title">Portfolio Website</h3>
 
                 <p className="projects__description">
                   My personal portfolio showcasing projects, services, and a
@@ -474,7 +510,7 @@ export default function HomePage() {
                 <a
                   href="https://github.com/Kuldeep-bhadouriya/Portfolio-website/tree/e5b12774d39f6d6e7ce9181b20237ef303dd259c"
                   target="_blank"
-                  rel="noreferrer"
+                  rel="noopener noreferrer"
                   className="projects__link"
                 >
                   <i className="ri-github-line"></i>View
@@ -488,6 +524,10 @@ export default function HomePage() {
                   src="/assets/img/project-1.jpg"
                   alt="WE Work Earn hackathon project screenshot"
                   className="projects__img"
+                  width="1280"
+                  height="719"
+                  loading="lazy"
+                  decoding="async"
                 />
                 <a
                   href="https://github.com/sharmaxkartik/WE-Work-Earn-"
@@ -498,8 +538,8 @@ export default function HomePage() {
               </div>
 
               <div className="projects__content">
-                <h3 className="projects__subtitle">Website</h3>
-                <h2 className="projects__title">Hackathon Project</h2>
+                <p className="projects__subtitle">Website</p>
+                <h3 className="projects__title">Hackathon Project</h3>
 
                 <p className="projects__description">
                   A functional landing page designed and developed in three
@@ -511,7 +551,7 @@ export default function HomePage() {
                 <a
                   href="https://github.com/sharmaxkartik/WE-Work-Earn-"
                   target="_blank"
-                  rel="noreferrer"
+                  rel="noopener noreferrer"
                   className="projects__link"
                 >
                   <i className="ri-github-line"></i>View
@@ -522,9 +562,13 @@ export default function HomePage() {
             <article className="projects__card">
               <div className="projects__image">
                 <img
-                  src="/assets/img/project-6.png"
+                  src="/assets/img/project-6.jpg"
                   alt="Real-time multiplayer chess game screenshot"
                   className="projects__img"
+                  width="1600"
+                  height="880"
+                  loading="lazy"
+                  decoding="async"
                 />
                 <a
                   href="https://github.com/Kuldeep-bhadouriya/Chess"
@@ -535,8 +579,8 @@ export default function HomePage() {
               </div>
 
               <div className="projects__content">
-                <h3 className="projects__subtitle">Website</h3>
-                <h2 className="projects__title">Chess Backend Project</h2>
+                <p className="projects__subtitle">Website</p>
+                <h3 className="projects__title">Chess Backend Project</h3>
 
                 <p className="projects__description">
                   This is my backend project which works on socket.io and{" "}
@@ -549,13 +593,20 @@ export default function HomePage() {
                 <a
                   href="https://github.com/Kuldeep-bhadouriya/Chess"
                   target="_blank"
-                  rel="noreferrer"
+                  rel="noopener noreferrer"
                   className="projects__link"
                 >
                   <i className="ri-github-line"></i>View
                 </a>
               </div>
             </article>
+          </div>
+
+          <div className="projects__cta">
+            <a href="#contact" className="button">
+              Like what you see? Let&apos;s work together
+              <i className="ri-send-plane-line"></i>
+            </a>
           </div>
         </section>
 
@@ -669,7 +720,7 @@ export default function HomePage() {
                   <a
                     href="https://www.instagram.com/wtf.kuldeepp/"
                     target="_blank"
-                    rel="noreferrer"
+                    rel="noopener noreferrer"
                     className="contact__social-link"
                   >
                     <i className="ri-instagram-fill"></i>
@@ -678,7 +729,7 @@ export default function HomePage() {
                   <a
                     href="https://www.linkedin.com/in/kuldeep-singh-bhadouriya/"
                     target="_blank"
-                    rel="noreferrer"
+                    rel="noopener noreferrer"
                     className="contact__social-link"
                   >
                     <i className="ri-linkedin-box-line"></i>
@@ -714,13 +765,13 @@ export default function HomePage() {
           </ul>
 
           <span className="footer__copy">
-            &#169; All Rights Reserved By <a href="#">Me.</a>
+            &#169; All Rights Reserved By <a href="/">Me.</a>
           </span>
         </div>
       </footer>
 
       {/*========== SCROLL UP ==========*/}
-      <a href="#" className="scrollup" id="scroll-up">
+      <a href="#home" className="scrollup" id="scroll-up">
         <i className="ri-arrow-up-s-line scrollup__icon"></i>
       </a>
     </>

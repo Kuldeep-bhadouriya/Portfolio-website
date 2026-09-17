@@ -59,10 +59,10 @@ export const metadata = {
     siteName: "Kuldeep Singh Bhadouriya Portfolio",
     images: [
       {
-        url: `${siteUrl}/assets/img/home-perfil.jpg`,
+        url: `${siteUrl}/assets/img/og-image.jpg`,
         width: 1200,
         height: 630,
-        alt: "Kuldeep Singh Bhadouriya - MERN Stack Developer",
+        alt: "Kuldeep Singh Bhadouriya - MERN Stack Developer Portfolio",
       },
     ],
   },
@@ -71,8 +71,7 @@ export const metadata = {
     title: "Kuldeep Singh Bhadouriya | MERN Stack Developer",
     description:
       "Experienced MERN Stack Developer specializing in full-stack web applications. Check out my portfolio!",
-    images: [`${siteUrl}/assets/img/home-perfil.jpg`],
-    creator: "@wtf.kuldeepp",
+    images: [`${siteUrl}/assets/img/og-image.jpg`],
   },
   robots: {
     index: true,
@@ -101,9 +100,21 @@ export default function RootLayout({ children }) {
     <html lang="en" className={baiJamjuree.variable}>
       <head>
         <link rel="icon" href="/assets/img/favicon.jpg?v=2" type="image/jpeg" />
-        <link rel="apple-touch-icon" href="/assets/img/favicon.jpg" />
+        <link rel="apple-touch-icon" href="/assets/img/icon-192.png" />
         <link rel="manifest" href="/manifest.json" />
         <meta name="theme-color" content="#ff6b35" />
+        <link
+          rel="preconnect"
+          href="https://cdnjs.cloudflare.com"
+          crossOrigin="anonymous"
+        />
+        <link rel="dns-prefetch" href="https://cdnjs.cloudflare.com" />
+        <link
+          rel="preconnect"
+          href="https://cdn.jsdelivr.net"
+          crossOrigin="anonymous"
+        />
+        <link rel="dns-prefetch" href="https://cdn.jsdelivr.net" />
         <link
           rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.4.0/remixicon.css"

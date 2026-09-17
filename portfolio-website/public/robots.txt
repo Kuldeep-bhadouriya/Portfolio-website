@@ -1,9 +1,11 @@
-# *
+# Default user agent
 User-agent: *
 Allow: /
 
-# Host
-Host: https://kuldeep-bhadouriya.vercel.app
+# Non-indexable application paths
+Disallow: /api/
+Disallow: /_next/
+Disallow: /assets/js/
 
-# Sitemaps
+# Sitemap
 Sitemap: https://kuldeep-bhadouriya.vercel.app/sitemap.xml

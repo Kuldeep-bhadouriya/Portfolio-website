@@ -1553,6 +1553,32 @@ body.dark-theme {
 .looping-words__p {
   margin: 0;
 }
+.home__work-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 0.25rem;
+  width: max-content;
+  margin: 1rem auto 0;
+  color: var(--first-color);
+  font-weight: var(--font-semi-bold);
+  border-bottom: 2px solid var(--first-color);
+  transition: color 0.4s, transform 0.4s;
+}
+.home__work-link:hover {
+  transform: translateY(-0.25rem);
+}
+.projects__cta {
+  display: flex;
+  justify-content: center;
+  margin-top: 2.5rem;
+}
+@media screen and (min-width: 1150px) {
+  .home__work-link {
+    margin: 0;
+  }
+}
+
 @font-face {
   font-family: "PP Neue Corp";
   src: url("https://cdn.prod.website-files.com/6717aac16c9ea22eeef1e79e/6717de2d56e40b921572d2d9_PPNeueCorp-TightUltrabold.woff2")
