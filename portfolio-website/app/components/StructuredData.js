@@ -46,7 +46,7 @@ export default function StructuredData() {
       "@id": `${siteUrl}/#person`,
       name: "Kuldeep Singh Bhadouriya",
       url: siteUrl,
-      image: `${siteUrl}/assets/img/home-perfil.jpg`,
+      image: `${siteUrl}/assets/img/home-perfil.webp`,
       jobTitle: "MERN Stack Developer",
       description:
         "MERN Stack Developer and B.Tech CS student at ITM Gwalior. GSSoC '25 Contributor, Google Cloud Innovator, and Web Dev Head at GDSC. Skilled in full-stack development, DevOps, and DSA in C++.",

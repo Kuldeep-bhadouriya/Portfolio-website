@@ -72,7 +72,7 @@ export default function HomePage() {
             <div className="home__perfil">
               <div className="home__image">
                 <img
-                  src="/assets/img/home-perfil.jpg"
+                  src="/assets/img/home-perfil.webp"
                   alt="Kuldeep Singh Bhadouriya - MERN Stack Developer"
                   className="home__img"
                   width="1131"
@@ -153,7 +153,7 @@ export default function HomePage() {
             <div className="about__perfil">
               <div className="about__image">
                 <img
-                  src="/assets/img/about-perfil.jpg"
+                  src="/assets/img/about-perfil.webp"
                   alt="Kuldeep Singh Bhadouriya professional photo"
                   className="about__img"
                   width="1395"
@@ -270,15 +270,15 @@ export default function HomePage() {
           <div className="projects__container container grid">
             <article className="projects__card">
               <div className="projects__image">
-                <img
-                  src="/assets/img/capstone.jpg"
-                  alt="Learning Path Generator multi-agent system screenshot"
-                  className="projects__img"
-                  width="1600"
-                  height="880"
-                  loading="lazy"
-                  decoding="async"
-                />
+                 <img
+                   src="/assets/img/capstone.webp"
+                   alt="Learning Path Generator multi-agent system screenshot"
+                   className="projects__img"
+                   width="1600"
+                   height="880"
+                   loading="lazy"
+                   decoding="async"
+                 />
                 <a
                   href="https://learning-path-capstone.streamlit.app/"
                   className="projects__button button"
@@ -308,60 +308,60 @@ export default function HomePage() {
               </div>
             </article>
 
+             <article className="projects__card">
+               <div className="projects__image">
+                 <img
+                   src="/assets/img/Zeroerror.webp"
+                   alt="Zero Error Esports website screenshot"
+                   className="projects__img"
+                   width="1600"
+                   height="869"
+                   loading="lazy"
+                   decoding="async"
+                 />
+                 <a
+                   href="https://zero-error.vercel.app/"
+                   className="projects__button button"
+                 >
+                   <i className="ri-arrow-right-up-line"></i>
+                 </a>
+               </div>
+
+               <div className="projects__content">
+                 <p className="projects__subtitle">Website</p>
+                 <h3 className="projects__title">Zero Error Esports</h3>
+
+                 <p className="projects__description">
+                   A modern, responsive website for the Zero Error Esports
+                   startup highlighting their story, events, services, teams, and
+                   contact. Built for performance and clean UX with an
+                   esports-inspired theme.
+                 </p>
+               </div>
+
+               <div className="projects__buttons">
+                 <a
+                   href="https://github.com/Kuldeep-bhadouriya/Zero-Error.git"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   className="projects__link"
+                 >
+                   <i className="ri-github-line"></i>View
+                 </a>
+               </div>
+             </article>
+
             <article className="projects__card">
               <div className="projects__image">
-                <img
-                  src="/assets/img/Zeroerror.jpg"
-                  alt="Zero Error Esports website screenshot"
-                  className="projects__img"
-                  width="1600"
-                  height="869"
-                  loading="lazy"
-                  decoding="async"
-                />
-                <a
-                  href="https://www.zeroerroresports.com/"
-                  className="projects__button button"
-                >
-                  <i className="ri-arrow-right-up-line"></i>
-                </a>
-              </div>
-
-              <div className="projects__content">
-                <p className="projects__subtitle">Website</p>
-                <h3 className="projects__title">Zero Error Esports</h3>
-
-                <p className="projects__description">
-                  A modern, responsive website for the Zero Error Esports
-                  startup highlighting their story, events, services, teams, and
-                  contact. Built for performance and clean UX with an
-                  esports-inspired theme.
-                </p>
-              </div>
-
-              <div className="projects__buttons">
-                <a
-                  href="https://github.com/sharmaxkartik/Zero-Error-Esports"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="projects__link"
-                >
-                  <i className="ri-github-line"></i>View
-                </a>
-              </div>
-            </article>
-
-            <article className="projects__card">
-              <div className="projects__image">
-                <img
-                  src="/assets/img/project-8.jpg"
-                  alt="Barterly time-banking platform screenshot"
-                  className="projects__img"
-                  width="1600"
-                  height="891"
-                  loading="lazy"
-                  decoding="async"
-                />
+                 <img
+                   src="/assets/img/project-8.webp"
+                   alt="Barterly time-banking platform screenshot"
+                   className="projects__img"
+                   width="1600"
+                   height="891"
+                   loading="lazy"
+                   decoding="async"
+                 />
                 <a
                   href="https://barterly-steel.vercel.app/"
                   className="projects__button button"
@@ -392,66 +392,108 @@ export default function HomePage() {
               </div>
             </article>
 
-            <article className="projects__card">
-              <div className="projects__image">
-                <img
-                  src="/assets/img/project-7.jpg"
-                  alt="Kronos Techfest website screenshot"
-                  className="projects__img"
-                  width="1600"
-                  height="894"
-                  loading="lazy"
-                  decoding="async"
-                />
-                <a
-                  href="https://kronos-2025.vercel.app/"
-                  className="projects__button button"
-                >
-                  <i className="ri-arrow-right-up-line"></i>
-                </a>
-              </div>
+             <article className="projects__card">
+               <div className="projects__image">
+                 <img
+                   src="/assets/img/project-7.webp"
+                   alt="Kronos Techfest website screenshot"
+                   className="projects__img"
+                   width="1600"
+                   height="894"
+                   loading="lazy"
+                   decoding="async"
+                 />
+                 <a
+                   href="https://kronos-2025.vercel.app/"
+                   className="projects__button button"
+                 >
+                   <i className="ri-arrow-right-up-line"></i>
+                 </a>
+               </div>
 
-              <div className="projects__content">
-                <p className="projects__subtitle">Website</p>
-                <h3 className="projects__title">Kronos-Techfest Website</h3>
+               <div className="projects__content">
+                 <p className="projects__subtitle">Website</p>
+                 <h3 className="projects__title">Kronos 2025 - Techfest Website</h3>
 
-                <p className="projects__description">
-                  Official website for our college techfest <b>Kronos</b> with
-                  event listings, schedules, and a responsive UI built by our
-                  team.
-                </p>
-              </div>
+                 <p className="projects__description">
+                   Official website for our college techfest <b>Kronos 2025</b> with
+                   event listings, schedules, and a responsive UI built by our
+                   team.
+                 </p>
+               </div>
 
-              <div className="projects__buttons">
-                <a
-                  href="https://github.com/vedant20082004/KRONOS2025"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="projects__link"
-                >
-                  <i className="ri-github-line"></i>View
-                </a>
-              </div>
-            </article>
+               <div className="projects__buttons">
+                 <a
+                   href="https://github.com/vedant20082004/KRONOS2025"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   className="projects__link"
+                 >
+                   <i className="ri-github-line"></i>View
+                 </a>
+               </div>
+              </article>
 
-            <article className="projects__card">
-              <div className="projects__image">
-                <img
-                  src="/assets/img/project-5.jpg"
-                  alt="Fix-Up Google Solution Challenge project screenshot"
-                  className="projects__img"
-                  width="1600"
-                  height="893"
-                  loading="lazy"
-                  decoding="async"
-                />
-                <a
-                  href="https://fix-up-gules.vercel.app/"
-                  className="projects__button button"
-                >
-                  <i className="ri-arrow-right-up-line"></i>
-                </a>
-              </div>
+             <article className="projects__card">
+               <div className="projects__image">
+                 <img
+                   src="/assets/img/kronos-2026.webp"
+                   alt="Kronos 2026 Techfest website screenshot"
+                   className="projects__img"
+                   width="1600"
+                   height="894"
+                   loading="lazy"
+                   decoding="async"
+                 />
+                 <a
+                   href="https://kronos-2026.vercel.app/"
+                   className="projects__button button"
+                 >
+                   <i className="ri-arrow-right-up-line"></i>
+                 </a>
+               </div>
+
+               <div className="projects__content">
+                 <p className="projects__subtitle">Website</p>
+                 <h3 className="projects__title">Kronos 2026 - Techfest Website</h3>
+
+                 <p className="projects__description">
+                   Official website for our college techfest <b>Kronos 2026</b> with
+                   event listings, schedules, and a responsive UI built by our
+                   team.
+                 </p>
+               </div>
+
+               <div className="projects__buttons">
+                 <a
+                   href="https://github.com/Kuldeep-bhadouriya/Kronos-2026.git"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   className="projects__link"
+                 >
+                   <i className="ri-github-line"></i>View
+                 </a>
+               </div>
+             </article>
+
+             <article className="projects__card">
+               <div className="projects__image">
+                 <img
+                   src="/assets/img/project-5.webp"
+                   alt="Fix-Up Google Solution Challenge project screenshot"
+                   className="projects__img"
+                   width="1600"
+                   height="893"
+                   loading="lazy"
+                   decoding="async"
+                 />
+                 <a
+                   href="https://fix-up-gules.vercel.app/"
+                   className="projects__button button"
+                 >
+                   <i className="ri-arrow-right-up-line"></i>
+                 </a>
+               </div>
 
               <div className="projects__content">
                 <p className="projects__subtitle">Website</p>
@@ -478,15 +520,15 @@ export default function HomePage() {
 
             <article className="projects__card">
               <div className="projects__image">
-                <img
-                  src="/assets/img/project-4.jpg"
-                  alt="Personal portfolio website screenshot"
-                  className="projects__img"
-                  width="1600"
-                  height="882"
-                  loading="lazy"
-                  decoding="async"
-                />
+                 <img
+                   src="/assets/img/project-4.webp"
+                   alt="Personal portfolio website screenshot"
+                   className="projects__img"
+                   width="1600"
+                   height="882"
+                   loading="lazy"
+                   decoding="async"
+                 />
                 <a
                   href="https://kuldeep-bhadouriya.vercel.app/"
                   className="projects__button button"
@@ -520,15 +562,15 @@ export default function HomePage() {
 
             <article className="projects__card">
               <div className="projects__image">
-                <img
-                  src="/assets/img/project-1.jpg"
-                  alt="WE Work Earn hackathon project screenshot"
-                  className="projects__img"
-                  width="1280"
-                  height="719"
-                  loading="lazy"
-                  decoding="async"
-                />
+                 <img
+                   src="/assets/img/project-1.webp"
+                   alt="WE Work Earn hackathon project screenshot"
+                   className="projects__img"
+                   width="1280"
+                   height="719"
+                   loading="lazy"
+                   decoding="async"
+                 />
                 <a
                   href="https://github.com/sharmaxkartik/WE-Work-Earn-"
                   className="projects__button button"
@@ -561,15 +603,15 @@ export default function HomePage() {
 
             <article className="projects__card">
               <div className="projects__image">
-                <img
-                  src="/assets/img/project-6.jpg"
-                  alt="Real-time multiplayer chess game screenshot"
-                  className="projects__img"
-                  width="1600"
-                  height="880"
-                  loading="lazy"
-                  decoding="async"
-                />
+                 <img
+                   src="/assets/img/project-6.webp"
+                   alt="Real-time multiplayer chess game screenshot"
+                   className="projects__img"
+                   width="1600"
+                   height="880"
+                   loading="lazy"
+                   decoding="async"
+                 />
                 <a
                   href="https://github.com/Kuldeep-bhadouriya/Chess"
                   className="projects__button button"
@@ -599,9 +641,50 @@ export default function HomePage() {
                   <i className="ri-github-line"></i>View
                 </a>
               </div>
-            </article>
-          </div>
+             </article>
 
+             <article className="projects__card">
+               <div className="projects__image">
+                 <img
+                   src="/assets/img/ai-interviewer.webp"
+                   alt="AI Interviewer website screenshot"
+                   className="projects__img"
+                   width="1600"
+                   height="880"
+                   loading="lazy"
+                   decoding="async"
+                 />
+                 <a
+                   href="https://github.com/Kuldeep-bhadouriya/AI-Interviewer.git"
+                   className="projects__button button"
+                 >
+                   <i className="ri-arrow-right-up-line"></i>
+                 </a>
+               </div>
+
+               <div className="projects__content">
+                 <p className="projects__subtitle">AI Application</p>
+                 <h3 className="projects__title">AI Interviewer</h3>
+
+                 <p className="projects__description">
+                   An AI-powered interview preparation tool that simulates real
+                   interview scenarios and provides feedback on responses.
+                 </p>
+               </div>
+
+               <div className="projects__buttons">
+                 <a
+                   href="https://github.com/Kuldeep-bhadouriya/AI-Interviewer.git"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   className="projects__link"
+                 >
+                   <i className="ri-github-line"></i>View
+                 </a>
+               </div>
+             </article>
+
+           </div>
           <div className="projects__cta">
             <a href="#contact" className="button">
               Like what you see? Let&apos;s work together
